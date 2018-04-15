@@ -1,0 +1,7 @@
+com\itransition\service\TestBean.class
+com\itransition\service\UserService.class
+com\itransition\dao\UserDao.class
+com\itransition\controller\UserController.class
+com\itransition\config\WebApplicationInitializer.class
+com\itransition\config\WebConfig.class
+com\itransition\config\SpringConfig.class
