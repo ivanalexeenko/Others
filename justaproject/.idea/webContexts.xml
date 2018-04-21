@@ -4,9 +4,7 @@
     <option name="state">
       <map>
         <entry key="file://$PROJECT_DIR$/web/views/add.jsp" value="file://$PROJECT_DIR$/web" />
-        <entry key="file://$PROJECT_DIR$/web/views/game.jsp" value="file://$PROJECT_DIR$/web" />
         <entry key="file://$PROJECT_DIR$/web/views/list.jsp" value="file://$PROJECT_DIR$/web" />
-        <entry key="file://$PROJECT_DIR$/web/views/settings.jsp" value="file://$PROJECT_DIR$/web" />
       </map>
     </option>
   </component>

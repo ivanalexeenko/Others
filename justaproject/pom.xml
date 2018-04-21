@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.itransition</groupId>
-    <artifactId>just-a-project</artifactId>
+    <artifactId>rock-paper-scissors</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
