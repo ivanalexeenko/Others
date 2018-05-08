@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>LAB_10</title>
+    <link rel="stylesheet" href="styles/w3.css">
+
+    <script>
+        function mouseover() {
+            this.className = "button_over";
+        }
+        function mouseout() {
+           this.className = "button_out";
+        }
+        function load(){
+            for(var i = 1;i <= 4;i++) {
+                document.getElementById(i).onmouseover=mouseover;
+                document.getElementById(i).onmouseout=mouseout;
+            }
+        }
+    </script>
+
+<style>
+    .button_out {
+    outline: none;
+    background: #9e0009;
+        color: white;
+        display: inline-block;
+        margin: 40px;
+        width: 150px;
+        height: 150px;
+        cursor: pointer;
+        border-radius: 50%;
+        box-shadow: 0 3px 20px rgba(255, 0, 0, .25),
+        inset 0 2px 0 rgba(255, 0, 0, .6),
+        0 7px 0 rgba(255, 0, 0, .1),
+        inset 0 0 20px rgba(255, 0, 0, .1);
+    }
+
+    .button_over {
+        outline: none;
+        background: #1bbf5b;
+        color: white;
+        display: inline-block;
+        margin: 40px;
+        width: 150px;
+        height: 150px;
+        cursor: pointer;
+        border-radius: 50%;
+        box-shadow: 0 3px 20px rgba(0, 255, 0, .25),
+        inset 0 2px 0 rgba(0, 255, 0, .6),
+        0 7px 0 rgba(0, 255, 0, .1),
+        inset 0 0 20px rgba(0, 255, 0, .1);
+    }
+</style>
+
+</head>
+
+<body class="w3-light-grey" onload="load()">
+<div class="w3-container w3-blue-grey w3-opacity w3-left-align">
+    <h1>Introducing: Lab Number 10 is here!</h1>
+</div>
+
+<div class="w3-container w3-center">
+    <div class="w3-bar w3-padding-large w3-padding-24">
+        <button class="button_out" onclick="location.href='/'" id="1">Main Page</button>
+        <button class="button_out" onclick="location.href='/list'" id="2">List Of Users</button>
+        <button class="button_out" onclick="location.href='/add'" id="3">Add New User</button>
+        <button class="button_out" onclick="location.href='/map'" id="4">See Map</button>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
